@@ -1,9 +1,11 @@
-import Image from 'next/image'
+import React from 'react'
 
-export default function Home() {
+const ContactPage = () => {
     return (
         <div className="flex h-full w-full items-center justify-center">
-            Home Page
+            Contact Page
         </div>
     )
 }
+
+export default ContactPage
